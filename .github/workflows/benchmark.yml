@@ -6,7 +6,7 @@ on:
 jobs:
   monkci-remote-cache:
     name: Monk CI with Remote Cache
-    runs-on: monkci-ubuntu-24.04-4
+    runs-on: monkci-ubuntu-24.04-16
     defaults:
       run:
         working-directory: upstream
